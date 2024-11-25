@@ -3,11 +3,13 @@ import gridImg2 from '../../../src/assets/58d6069544c47936a069386582bb005c.png';
 import gridImg3 from '../../../src/assets/663c8ccf051c7c0ddfe7e0e2de5e1a9d.png';
 import gridImg4 from '../../../src/assets/bbfb725de94a63c8d6661df0864efc9e.png';
 import Card from '../WishList/Card/Card';
-import { IoCalendarOutline, IoPlayBackOutline, IoShareSocialOutline } from 'react-icons/io5';
-import { IoIosSearch } from 'react-icons/io';
+import { IoCalendarOutline, IoCallOutline, IoPlayBackOutline, IoShareSocialOutline } from 'react-icons/io5';
+import { IoIosPlay, IoIosSearch } from 'react-icons/io';
 import { LuCopy } from 'react-icons/lu';
 import { HiOutlineSquares2X2 } from 'react-icons/hi2';
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
+import { MdOutlineMail } from 'react-icons/md';
+import { FaAngleRight } from 'react-icons/fa';
 
 
 
@@ -104,8 +106,47 @@ const ProductDetails = () => {
                                     <h3 className='text-center text-xl text-[#00509d] font-semibold '>Agamir <br />Property</h3>
                                     <p className='text-center text-sm text-gray-500'>Where Dreams Meet Reality</p>
                                     <div className='flex gap-5 justify-center mt-3 text-white'>
-                                          <button className='bg-[#00509d] shadow-xl px-3 py-2 rounded'>Call</button>
-                                          <button className='bg-[#00509d] px-3 py-2 shadow-xl rounded'>Email</button>
+                                          <button className='bg-[#00509d] shadow-xl px-3 py-2 rounded  flex gap-1 items-center'><IoCallOutline />Call</button>
+                                          <button className='bg-[#00509d] px-3 py-2 shadow-xl rounded flex gap-1 items-center'><MdOutlineMail />Email</button>
+                                    </div>
+                              </div>
+                              <div>
+                                    <div className='bg-[#00509d] text-white flex justify-between py-2 px-5 mt-10 items-center rounded'>
+                                          <h2>Plot Sale</h2>
+                                          <FaAngleRight className='text-2xl' />
+                                    </div>
+                                    <div>
+                                          <div className='bg-gray-300 flex justify-between py-2 px-5 mt-5 items-center rounded'>
+                                                <h2>Plot Type</h2>
+                                          </div>
+                                          <ul className='space-y-2 mt-5'>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Residential</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Apartment</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Commercial</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Shared plot</li>
+                                          </ul>
+                                    </div>
+                                    <div className='mt-10'>
+                                          <div className='bg-gray-300 flex justify-between py-2 px-5 mt-5 items-center rounded'>
+                                                <h2>Block</h2>
+                                          </div>
+                                          <ul className='space-y-2 mt-5'>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Residential</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Apartment</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Commercial</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Shared plot</li>
+                                          </ul>
+                                    </div>
+                                    <div className='mt-10'>
+                                          <div className='bg-gray-300 flex justify-between py-2 px-5 mt-5 items-center rounded'>
+                                                <h2>Katha</h2>
+                                          </div>
+                                          <ul className='space-y-2 mt-5'>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Residential</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Apartment</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Commercial</li>
+                                                <li className='flex  items-center gap-1 text-xl text-[#00509d]'><span><IoIosPlay className='text-xs text-black' /></span> Shared plot</li>
+                                          </ul>
                                     </div>
                               </div>
                         </div>

@@ -13,6 +13,7 @@ import AllPlot from "./Pages/AllPlot/AllPlot.jsx";
 import VisitScheduled from "./Pages/VisitSchiduled/VisitScheduled.jsx";
 import PostProperty from "./Pages/PostProperty/PostProperty.jsx";
 import ProductDetails from "./Pages/ProductsDetails/ProductDetails.jsx";
+import BlockPage from "./Pages/Block/BlockPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -46,7 +47,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/productDetails",
-        element: <ProductDetails></ProductDetails>
+        element: <ProductDetails></ProductDetails>,
+      },
+      {
+        path: "blockPage",
+        element: <BlockPage></BlockPage>,
       }
     ],
   },

@@ -14,6 +14,8 @@ import VisitScheduled from "./Pages/VisitSchiduled/VisitScheduled.jsx";
 import PostProperty from "./Pages/PostProperty/PostProperty.jsx";
 import ProductDetails from "./Pages/ProductsDetails/ProductDetails.jsx";
 import BlockPage from "./Pages/Block/BlockPage.jsx";
+import BlogDetails from "./Pages/Block/BlogDetails.jsx";
+import BlockWays from "./Pages/Block/BloksWays/BlockWays.jsx";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
       {
         path: "blockPage",
         element: <BlockPage></BlockPage>,
+      },
+      {
+        path: "blogDetails",
+        element: <BlogDetails></BlogDetails>
+      },
+      {
+        path: "blockWays",
+        element: <BlockWays></BlockWays>
       }
     ],
   },
